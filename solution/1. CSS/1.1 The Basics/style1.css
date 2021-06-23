@@ -1,0 +1,28 @@
+
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    color: blue;
+    line-height: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#click {
+    background: #000;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+#click:hover {
+    border: 2px solid #000;
+    color: black;
+    background: white;
+    text-decoration: none;
+
+}
