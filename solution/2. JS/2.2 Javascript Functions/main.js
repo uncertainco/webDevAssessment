@@ -1,17 +1,16 @@
-function createName(first,last){
-    return `${first} ${last}`;
+//2.1 JavaScript variables
+function add(a,b){
+    var sum = parseInt(a)+parseInt(b);
+    var message = "Sum of Given Numbers = "+sum;
+    return message;
 }
-function askName(){
-    do{
-    var first = prompt();
-    var last = prompt();
-    var fullName = createName(first,last);
-    }while(fullName!=="Bob Jones");
-    return "Your name is "+fullName;
-    //alert("Your name is "+fullName);
-}
-let user = document.getElementById("asker");
-user.onclick = function() {fun()};
-function fun() {
-  user.innerHTML = askName();
-}
+
+let x = 1000;
+let y = 234; 
+let sum = add(x,y);
+alert(sum);
+
+//Extra credit:
+alert(add(500,400));
+
+
